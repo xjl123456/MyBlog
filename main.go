@@ -10,3 +10,6 @@ func main() {
 	router.Static("/static", "./static")
 	router.Run(":8081")
 }
+
+//test push
+//test push2
