@@ -10,5 +10,6 @@ func InitRouter() *gin.Engine {
 	router.LoadHTMLGlob("views/*")
 	//注册：
 	router.GET("/register", controllers.RegisterGet)
+	router.GET("/test", controllers.RegisterGet)
 	return router
 }
